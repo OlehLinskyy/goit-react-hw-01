@@ -1,0 +1,32 @@
+.friendlist {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.online {
+  background-color: green;
+}
+.ofline {
+  background-color: red;
+}
+.item {
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px 0 #b0b8c1;
+  background-color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.name {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.12;
+}
